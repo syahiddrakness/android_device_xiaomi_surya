@@ -230,6 +230,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/security/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
