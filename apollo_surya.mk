@@ -12,8 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common  Apollo stuff.
-$(call inherit-product, vendor/apollo/config/common.mk)
-$(call inherit-product, vendor/apollo/config/gsm.mk)
+$(call inherit-product, vendor/apollo/config/common_full_phone.mk)
 
 PRODUCT_NAME := apollo_surya
 PRODUCT_DEVICE := surya
