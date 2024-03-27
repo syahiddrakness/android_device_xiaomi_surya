@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_surya.mk
+    $(LOCAL_DIR)/apollo_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_surya-user \
-    lineage_surya-userdebug \
-    lineage_surya-eng
+    apollo_surya-user \
+    apollo_surya-userdebug \
+    apollo_surya-eng
